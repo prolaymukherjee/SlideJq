@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is javascript fundamantal</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="js/index.js"></script>
+	</head>
+
+	<body>
+	<section class="content"
+		<div class="header">
+			<h2>Jquery tutrial fundamantal</h2>
+		</div>
+		
+	<div class="main">
+	
+	    <button id="slidedown">Slide Down</button>
+		<button id="slideup">Slide Up</button>
+		<button id="slidetoggle">Slide Toggle</button>
+	
+
+		<div class="para">
+			<h3>Prolay Mukherjee</h3>
+			<p >
+			  Learn Jquery fundamantal with  prolay mukherjee.Learn Jquery fundamantal with  prolay mukherjee.
+			  Learn Jquery fundamantal with  prolay mukherjee.Learn Jquery fundamantal with  prolay mukherjee.
+			</p>
+		</div>
+		
+		
+		<script>
+			$(document).ready(function(){
+				$("#slidedown").click(function(){
+					$(".para").slideDown('slow');
+				});
+				
+				$("#slideup").click(function(){
+					$(".para").slideUp('slow');
+				});
+				
+				$("#slidetoggle").click(function(){
+					$(".para").slideToggle('slow');
+				});
+				
+
+			});
+		</script>
+		
+		
+	</div>
+		<div class="footer">
+			<h2>javascript live traing</h2>
+		</div>
+		</section>
+	</body>
+	
+</html>
